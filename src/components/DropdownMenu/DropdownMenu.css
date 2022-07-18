@@ -1,0 +1,78 @@
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu.top-left {
+    left: 64px;
+    position: absolute;
+    top: 64px;
+}
+
+.menu.top-right {
+    position: absolute;
+    right: 64px;
+    top: 64px;
+}
+
+.menu.middle-left {
+    top: calc(50% - 32px);
+    left: 64px;
+    position: absolute;
+}
+
+.menu.middle-right {
+    top: calc(50% - 32px);
+    position: absolute;
+    right: 64px;
+}
+
+.menu.bottom-left {
+    bottom: 64px;
+    left: 64px;
+    position: absolute;
+}
+
+.menu.bottom-right {
+    bottom: 64px;
+    position: absolute;
+    right: 64px;
+}
+
+.menu.small {
+    height: 40px;
+    width: 40px;
+}
+
+.menu.normal {
+    height: 80px;
+    width: 80px;
+}
+
+.menu.large {
+    height: 128px;
+    width: 128px;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.list>li {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 8px;
+}
+
+.list>li>span {
+    flex: 4 1 236px;
+    text-align: left;
+}
+
+.list>li>svg {
+    flex: 1 1 24px;
+}

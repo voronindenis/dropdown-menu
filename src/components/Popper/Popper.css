@@ -1,0 +1,23 @@
+.popper {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-sizing: content-box;
+    height: auto;
+    left: -9999px;
+    margin: 0;
+    opacity: 0;
+    padding: 8px;
+    position: absolute;
+    top: -9999px;
+    transition: opacity 0.5s ease-out;
+    visibility: hidden;
+    width: 260px;
+}
+
+.popper.opened {
+    opacity: 1;
+    position: relative;
+    visibility: visible;
+    top: 0;
+    left: 0;
+}

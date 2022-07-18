@@ -1,0 +1,7 @@
+.main-page {
+    box-sizing: border-box;
+    height: 200vh;
+    padding: 64px;
+    position : relative;
+    width: 100%;
+}
